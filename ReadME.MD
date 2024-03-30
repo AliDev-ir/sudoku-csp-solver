@@ -103,10 +103,10 @@ Example Output:
 - The process continues until a solution is found or all possibilities have been exhausted.
 
 ## Acknowledgements
-This Sudoku solver script was developed by [Your Name]. Feel free to contribute to the project by submitting bug fixes or enhancements.
+This Sudoku solver script was developed by [Ali Vaez]. Feel free to contribute to the project by submitting bug fixes or enhancements.
 
 ## License
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 ## Contact
-For questions or suggestions, please feel free to contact [Ali vaez](mailto:AliVaez4882@gmail.com). Contributions are welcome!
+For questions or suggestions, please feel free to contact [Ali vaez](mailto:AliVaez4882@gmail.com). Contributions are welcome!💙
