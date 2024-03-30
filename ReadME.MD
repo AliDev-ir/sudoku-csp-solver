@@ -3,6 +3,40 @@
 
 This Python script provides a solver for Sudoku puzzles utilizing the Constraint Satisfaction Problem (CSP) algorithm. The solver takes an input Sudoku puzzle and returns the solution if it exists. It is implemented using a backtracking search algorithm with constraint propagation.
 
+## Constraint Satisfaction Problem (CSP)
+
+A Constraint Satisfaction Problem (CSP) is a mathematical problem where a set of variables must be assigned values subject to specified constraints. These problems are widespread and can be found in various domains, including artificial intelligence, operations research, and computer science.
+
+### Components of a CSP
+
+1. **Variables**: These are the entities that need to be assigned values. In the context of a Sudoku puzzle, each cell represents a variable that must be assigned a digit.
+
+2. **Domains**: Each variable has a domain, which is the set of possible values it can take. In Sudoku, the domain of each cell is the set of digits from 1 to 9.
+
+3. **Constraints**: Constraints define the relationships between variables. They specify which combinations of variable assignments are valid. In Sudoku, constraints dictate that each row, column, and block must contain unique digits.
+
+### Solving CSPs
+
+Solving a CSP involves finding a valid assignment of values to variables that satisfies all constraints. Various algorithms can be used to solve CSPs, including backtracking search, constraint propagation, and local search techniques.
+
+- **Backtracking Search**: This is a systematic algorithm that explores possible assignments for variables, backtracking when it encounters constraints that cannot be satisfied. It tries different values for each variable until a solution is found or no valid assignments remain.
+
+- **Constraint Propagation**: This technique involves iteratively applying constraints to reduce the domain of variables. By eliminating inconsistent values, constraint propagation narrows down the search space, making it easier to find solutions.
+
+- **Local Search**: Unlike systematic search algorithms like backtracking, local search methods iteratively improve upon partial solutions by making small changes. Techniques like simulated annealing and genetic algorithms can be used to explore the solution space efficiently.
+
+### Applications of CSP
+
+CSPs have applications in various fields, including:
+
+- **Puzzle Solving**: Problems like Sudoku, crosswords, and logic puzzles can be formulated as CSPs and solved using constraint satisfaction techniques.
+
+- **Planning and Scheduling**: CSPs can be used to model scheduling problems, such as employee shifts, project timelines, and resource allocation.
+
+- **Routing and Optimization**: In transportation and logistics, CSPs can help optimize routes, vehicle assignments, and delivery schedules while considering constraints like time windows and capacity limits.
+
+By understanding and applying CSP techniques, you can effectively solve problems that involve assigning values to variables subject to constraints, making it a valuable tool in problem-solving across diverse domains.
+
 ## How to Use
 
 ### Prerequisites
