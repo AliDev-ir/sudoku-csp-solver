@@ -46,7 +46,7 @@ By understanding and applying CSP techniques, you can effectively solve problems
 1. Clone the repository to your local machine:
 
 ```bash
-git clone https://github.com/AliDev-ir/sudoku-csp-solver.git
+git clone https://github.com/AliDev-ir/sudoko-csp.git
 ```
 
 2. Navigate to the project directory:
